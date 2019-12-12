@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title> </title>
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+ 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/style.css"/>
+  <script src="../../../code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.js"></script>
+  <script src="assets/script.js"></script>
+</head>
+
+<body>
+
+
+<!-- Header Starts -->
+<div class="navbar-wrapper">
+
+        <div class="navbar-inverse" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+
+
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+            </div>
+
+
+            <!-- Nav Starts -->
+            <div class="navbar-collapse  collapse">
+              <ul class="nav navbar-nav navbar-right">
+               <li class="active"><a href="index">Home</a></li>
+             
+                <li><a href="contact">Contact</a></li>
+              </ul>
+            </div>
+            <!-- #Nav Ends -->
+
+          </div>
+        </div>
+
+    </div>
+<!-- #Header Starts -->
+
+<form method="post" action="help.php">
+<div class="container">
+<div class="spacer">
+<div class="row contact">
+  <div class="col-lg-6 col-sm-6 ">
+
+
+                <input type="text" class="form-control" placeholder="Full Name" name="name">
+                <input type="text" class="form-control" placeholder="Email Address" name="email">
+                <input type="text" class="form-control" placeholder="Contact Number" name="mob">
+                <textarea rows="6" class="form-control" placeholder="Message" name="msg"></textarea>
+      <button type="submit" class="btn btn-success" name="Submit">Send Message</button>
+          
+</form>       
+        </div>
+ 
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
